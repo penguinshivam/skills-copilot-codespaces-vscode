@@ -68,7 +68,7 @@ function skillsMember()
 
     member.hasAnySkills = function(skillIds)
     {
-        var result = false;
+        var result = true;
         for (var i = 0; i < skillIds.length; i++)
         {
             var skillId = skillIds[i];
